@@ -11,7 +11,7 @@ PowerShell Core scripts
     Can be invoked with
 
     ```
-    pwsh -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://github.com/panoramicsystems/LogicMonitor.Scripts/blob/main/LogicMonitor.Scripts/PowerShellCore/CreateCredentialsFile.ps1'))"
+    pwsh -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/panoramicsystems/LogicMonitor.Scripts/main/PowerShellCore/CreateCredentialsFile.ps1'))"
     ```
 
 - AddOpsNote.ps1
