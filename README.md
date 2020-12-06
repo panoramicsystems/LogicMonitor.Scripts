@@ -17,3 +17,8 @@ PowerShell Core scripts
 - AddOpsNote.ps1
 
     Adds OpsNotes - uses the LogicMonitorCreds.json file
+
+    Download the file using wget or similar: 
+    ```
+    wget 
+    ```
