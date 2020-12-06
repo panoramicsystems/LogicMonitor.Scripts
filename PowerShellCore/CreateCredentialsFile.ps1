@@ -11,5 +11,5 @@ $apiCreds =
     AccessKey = ConvertFrom-SecureString -SecureString $accessKey;
 }
 Write-Host "Writing to $credentialsFile..." -NoNewline
-$apiCreds |  ConvertTo-Json -Compress | Set-Content $credentialsFile
-Write-Host "Done."
+$apiCreds |  ConvertTo-Json | Set-Content $credentialsFile
+Write-Host "done."
